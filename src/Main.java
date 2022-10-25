@@ -15,5 +15,15 @@ public class Main {
         out.println(myStr.substring(4)); // creates a string from the number
         out.println(myStr.substring(4,8)); // creates a string from the range
 
+        myStr.toUpperCase(); //returns the original ALL UPPERCASE
+        out.println(myStr);
+        myStr = myStr.toUpperCase();
+        out.println(myStr);
+        //compareTo vs equals
+        String s1 = "one";
+        String s2 = "two";
+        out.println(s1.equals("one")); //boolean -- checks to see if same sting
+        out.println(s1.compareTo(s2)); //
+        out.println(s2.compareTo(s1));
     }
 }
